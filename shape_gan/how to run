@@ -1,0 +1,5 @@
+source ~/tensorflow/bin/activate
+
+python main.py --phase train --layer_features 1
+
+python main.py --phase test
